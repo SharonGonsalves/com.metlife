@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (4a248b1e9c940ee151cca19b351bc52f)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7527" started-at="2022-10-28T22:29:31Z" finished-at="2022-10-28T22:29:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7527" started-at="2022-10-28T22:29:31Z" finished-at="2022-10-28T22:29:39Z">
+      <class name="pages.HomePageTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="setUpDriver" is-config="true" duration-ms="6867" started-at="2022-10-28T22:29:31Z" finished-at="2022-10-28T22:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testing()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="testing" duration-ms="428" started-at="2022-10-28T22:29:38Z" finished-at="2022-10-28T22:29:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (4a248b1e9c940ee151cca19b351bc52f)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="closingDriverSession" is-config="true" duration-ms="209" started-at="2022-10-28T22:29:39Z" finished-at="2022-10-28T22:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriverSession -->
+      </class> <!-- pages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
