@@ -8,7 +8,7 @@ public class HomePageTest extends BaseClass {
 	@Test
 	public void testing() {
 
-		homePage.getvirtualcare();
+		homePage.autoQuoteSteps();
 
 	}
 

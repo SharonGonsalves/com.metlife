@@ -1,6 +1,10 @@
 package common;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import reporting.Logs;
@@ -28,4 +32,25 @@ public static boolean isPresent(WebElement element) {
 	}
 }
 
+    public static boolean isPresent(By byLocator, WebDriver driver) {
+	List<WebElement> elements = driver.findElements(byLocator);
+	if(elements.size() == 0) {
+		Logs.log("ELEMENT NOT FOUND -->" + byLocator);
+		return false;
+	}else {
+		Logs.log(elements.get(0) + " <--- has been PRESENT");
+		return true;
+	}
 }
+
+    public static boolean isDisplayed(WebElement element) {
+	if(element.isDisplayed()) {
+		Logs.log(element + " <--- is VISIBLE");
+		return true;
+	}else {
+		Logs.log(element + " <--- NOT VISIBLE");
+		return false;
+	}
+}
+}
+

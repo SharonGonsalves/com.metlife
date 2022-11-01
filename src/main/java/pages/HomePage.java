@@ -1,5 +1,6 @@
 package pages;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,11 +17,16 @@ public class HomePage {
 
 	@FindBy(id = "cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button")
 	WebElement quote;
-    @FindBy(id="lbl--auto")
-    WebElement autoElement;
+    @FindBy(xpath="(//div[text()='Auto'])[1]")
+    WebElement autoButton;
+    @FindBy(xpath = "//span[@class='mr-2']")
+    WebElement getaquoteElement;
     
-	public void getvirtualcare() {
+    
+	public void autoQuoteSteps() {
 
 		CommonActions.click(quote);
+		CommonActions.click(autoButton);
+		
 	}
 }

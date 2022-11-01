@@ -2,26 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (4a248b1e9c940ee151cca19b351bc52f)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> xpath: (//div[text()='Auto'])[1]]<--- has been clicked<br>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7527" started-at="2022-10-28T22:29:31Z" finished-at="2022-10-28T22:29:39Z">
+  <suite name="Default suite" duration-ms="18250" started-at="2022-11-01T21:55:52Z" finished-at="2022-11-01T21:56:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7527" started-at="2022-10-28T22:29:31Z" finished-at="2022-10-28T22:29:39Z">
+    <test name="Default test" duration-ms="18250" started-at="2022-11-01T21:55:52Z" finished-at="2022-11-01T21:56:10Z">
       <class name="pages.HomePageTest">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="setUpDriver" is-config="true" duration-ms="6867" started-at="2022-10-28T22:29:31Z" finished-at="2022-10-28T22:29:38Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="setUpDriver" is-config="true" duration-ms="7265" started-at="2022-11-01T21:55:52Z" finished-at="2022-11-01T21:55:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="testing()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="testing" duration-ms="428" started-at="2022-10-28T22:29:38Z" finished-at="2022-10-28T22:29:39Z">
+        <test-method status="PASS" signature="testing()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="testing" duration-ms="10694" started-at="2022-11-01T21:55:59Z" finished-at="2022-11-01T21:56:10Z">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (4a248b1e9c940ee151cca19b351bc52f)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> xpath: (//div[text()='Auto'])[1]]<--- has been clicked<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testing -->
-        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="closingDriverSession" is-config="true" duration-ms="209" started-at="2022-10-28T22:29:39Z" finished-at="2022-10-28T22:29:39Z">
+        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="closingDriverSession" is-config="true" duration-ms="238" started-at="2022-11-01T21:56:10Z" finished-at="2022-11-01T21:56:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDriverSession -->
