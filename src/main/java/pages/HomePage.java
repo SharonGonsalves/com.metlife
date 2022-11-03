@@ -6,27 +6,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import common.CommonActions;
+import common.CommonWaits;
 
 public class HomePage {
 
 	WebDriver driver;
-
+	CommonWaits waits;
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(id = "cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button")
-	WebElement quote;
-    @FindBy(xpath="(//div[text()='Auto'])[1]")
-    WebElement autoButton;
-    @FindBy(xpath = "//span[@class='mr-2']")
-    WebElement getaquoteElement;
-    
-    
-	public void autoQuoteSteps() {
+	@FindBy(xpath = "(//span[@class='header__login-label font-meta-1'])[1]")
+	WebElement logInButton;
 
-		CommonActions.click(quote);
-		CommonActions.click(autoButton);
-		
+    
+    
+	public void logInButtonStep() {
+    CommonActions.click(logInButton);
 	}
-}
+	}

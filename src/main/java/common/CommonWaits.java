@@ -1,7 +1,5 @@
 package common;
 
-import java.time.Duration;
-
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +16,8 @@ public class CommonWaits {
 	
 	public CommonWaits(WebDriver driver) {
 		long waitTime = Long.parseLong(configuration.getProperty(IConstant.IMPLICIT_WAIT));
-		wait = new WebDriverWait(driver, Duration.ofSeconds(waitTime));
+		//wait = new WebDriverWait(driver, Duration.ofSeconds(waitTime));
+		wait = new WebDriverWait(driver, waitTime);
 	}
 	
 	public void waitUntilVisible(WebElement element) {

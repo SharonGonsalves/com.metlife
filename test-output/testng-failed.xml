@@ -6,8 +6,8 @@
       <class name="pages.HomePageTest">
         <methods>
           <include name="setUpDriver"/>
-          <include name="testing"/>
           <include name="closingDriverSession"/>
+          <include name="logInAccountTest"/>
         </methods>
       </class> <!-- pages.HomePageTest -->
     </classes>

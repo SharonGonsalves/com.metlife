@@ -1,37 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> xpath: (//div[text()='Auto'])[1]]<--- has been clicked<br>]]>
+      <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: .brand-button.js-submitLogin'<--- has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='userNameId']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[12345 : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='passwordId']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18250" started-at="2022-11-01T21:55:52Z" finished-at="2022-11-01T21:56:10Z">
+  <suite name="Regression" duration-ms="35718" started-at="2022-11-03T03:08:12Z" finished-at="2022-11-03T03:08:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18250" started-at="2022-11-01T21:55:52Z" finished-at="2022-11-01T21:56:10Z">
+    <test name="LogIntest" duration-ms="35718" started-at="2022-11-03T03:08:12Z" finished-at="2022-11-03T03:08:47Z">
       <class name="pages.HomePageTest">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="setUpDriver" is-config="true" duration-ms="7265" started-at="2022-11-01T21:55:52Z" finished-at="2022-11-01T21:55:59Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@4b5a5ed1]" name="setUpDriver" is-config="true" duration-ms="5702" started-at="2022-11-03T03:08:12Z" finished-at="2022-11-03T03:08:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="testing()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="testing" duration-ms="10694" started-at="2022-11-01T21:55:59Z" finished-at="2022-11-01T21:56:10Z">
+        <test-method status="PASS" signature="logInAccountParameterTest(java.lang.String, java.lang.String)[pri:0, instance:pages.HomePageTest@4b5a5ed1]" name="logInAccountParameterTest" duration-ms="29744" started-at="2022-11-03T03:08:17Z" finished-at="2022-11-03T03:08:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> id: cf128f7c-3b92-47e9-b84c-0e79dd302f4f-desktop-action-button]<--- has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (15e19143af5734ab3de1d060648b5e20)] -> xpath: (//div[text()='Auto'])[1]]<--- has been clicked<br>]]>
+              <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: .brand-button.js-submitLogin'<--- has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='userNameId']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[12345 : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='passwordId']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testing -->
-        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@6e4784bc]" name="closingDriverSession" is-config="true" duration-ms="238" started-at="2022-11-01T21:56:10Z" finished-at="2022-11-01T21:56:10Z">
+        </test-method> <!-- logInAccountParameterTest -->
+        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@4b5a5ed1]" name="closingDriverSession" is-config="true" duration-ms="222" started-at="2022-11-03T03:08:47Z" finished-at="2022-11-03T03:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDriverSession -->
       </class> <!-- pages.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LogIntest -->
+  </suite> <!-- Regression -->
 </testng-results>

@@ -1,36 +1,38 @@
 package base;
 
-import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 import static utils.IConstant.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.AccountPage;
 import pages.HomePage;
+import pages.LogInPage;
 import utils.Configuration;
 
 public class BaseClass {
 	Configuration config = new Configuration();
 	WebDriver driver;
 	protected HomePage homePage;
+	protected AccountPage accountPage;
+	protected LogInPage logInPage;
 
 	@BeforeMethod
 	public void setUpDriver() {
-		
-		
 		initDriver();
 		driver.manage().window().maximize();
 		driver.get(config.getProperty(URL));
 		long pageLoadTime = Long.parseLong(config.getProperty(PAGELOAD_WAIT));
 		long implicitWait = Long.parseLong(config.getProperty(EXPLICIT_WAIT));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(pageLoadTime));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+		//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(pageLoadTime));
+		driver.manage().timeouts().pageLoadTimeout(pageLoadTime,TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+		driver.manage().timeouts().implicitlyWait(implicitWait,TimeUnit.SECONDS);
 		initClasses();
 	}
 
@@ -67,6 +69,8 @@ public class BaseClass {
 	public void initClasses() {
 
 		homePage = new HomePage(driver);
+		accountPage= new AccountPage(driver);
+		logInPage= new LogInPage(driver);
 	}
 
 	public WebDriver getDriver() {
