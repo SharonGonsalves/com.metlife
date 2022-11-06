@@ -1,5 +1,6 @@
 package pages;
 
+
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import base.BaseClass;
@@ -20,6 +21,7 @@ public class HomePageTest extends BaseClass {
 		accountPage.accountTypeStep();
 		logInPage.logInSteps(username,password);
 		
+
 	}
 
 }

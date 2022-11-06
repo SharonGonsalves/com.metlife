@@ -1,79 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
+      <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
     </line>
     <line>
-      <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
+      <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
     </line>
     <line>
       <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: .brand-button.js-submitLogin'<--- has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='userNameId']]<br>]]>
+      <![CDATA[sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //input[@id='userNameId']]<br>]]>
     </line>
     <line>
-      <![CDATA[12345 : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='passwordId']]<br>]]>
+      <![CDATA[abc123 : has been Inserted ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //input[@id='passwordId']]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
     </line>
   </reporter-output>
-  <suite name="Regression" duration-ms="35718" started-at="2022-11-03T03:08:12Z" finished-at="2022-11-03T03:08:47Z">
+  <suite name="Default suite" duration-ms="38292" started-at="2022-11-06T01:14:47Z" finished-at="2022-11-06T01:15:26Z">
     <groups>
     </groups>
-    <test name="LogIntest" duration-ms="35718" started-at="2022-11-03T03:08:12Z" finished-at="2022-11-03T03:08:47Z">
-      <class name="pages.HomePageTest">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@4b5a5ed1]" name="setUpDriver" is-config="true" duration-ms="5702" started-at="2022-11-03T03:08:12Z" finished-at="2022-11-03T03:08:17Z">
+    <test name="Default test" duration-ms="38292" started-at="2022-11-06T01:14:47Z" finished-at="2022-11-06T01:15:26Z">
+      <class name="pages.AutoDataTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.AutoDataTest@5ccddd20]" name="setUpDriver" is-config="true" duration-ms="7519" started-at="2022-11-06T01:14:47Z" finished-at="2022-11-06T01:14:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="logInAccountParameterTest(java.lang.String, java.lang.String)[pri:0, instance:pages.HomePageTest@4b5a5ed1]" name="logInAccountParameterTest" duration-ms="29744" started-at="2022-11-03T03:08:17Z" finished-at="2022-11-03T03:08:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sharon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="autoTest()[pri:0, instance:pages.AutoDataTest@5ccddd20]" name="autoTest" duration-ms="30502" started-at="2022-11-06T01:14:55Z" finished-at="2022-11-06T01:15:25Z">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
+              <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
             </line>
             <line>
-              <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
+              <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
             </line>
             <line>
               <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: .brand-button.js-submitLogin'<--- has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='userNameId']]<br>]]>
+              <![CDATA[sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //input[@id='userNameId']]<br>]]>
             </line>
             <line>
-              <![CDATA[12345 : has been Inserted ---> [[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //input[@id='passwordId']]<br>]]>
+              <![CDATA[abc123 : has been Inserted ---> [[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //input[@id='passwordId']]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on MAC (50bf5ed72e05d80eed14d948355ebc49)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (135a322692660bd78bacc83fa794c6e6)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- logInAccountParameterTest -->
-        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@4b5a5ed1]" name="closingDriverSession" is-config="true" duration-ms="222" started-at="2022-11-03T03:08:47Z" finished-at="2022-11-03T03:08:47Z">
+        </test-method> <!-- autoTest -->
+        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.AutoDataTest@5ccddd20]" name="closingDriverSession" is-config="true" duration-ms="216" started-at="2022-11-06T01:15:25Z" finished-at="2022-11-06T01:15:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDriverSession -->
-      </class> <!-- pages.HomePageTest -->
-    </test> <!-- LogIntest -->
-  </suite> <!-- Regression -->
+      </class> <!-- pages.AutoDataTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

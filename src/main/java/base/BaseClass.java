@@ -67,7 +67,6 @@ public class BaseClass {
 	}
 
 	public void initClasses() {
-
 		homePage = new HomePage(driver);
 		accountPage= new AccountPage(driver);
 		logInPage= new LogInPage(driver);
