@@ -1,6 +1,8 @@
 package pages;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import base.BaseClass;
 import utils.data.AutoData;
 

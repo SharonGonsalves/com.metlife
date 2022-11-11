@@ -19,8 +19,7 @@ public class Configuration {
 		try {
 			properties.load(getClass().getClassLoader().getResourceAsStream("config.properties"));
 		} catch (IOException e) {
-			e.printStackTrace();
+			e.printStackTrace(); 
 		}
 	}
-
 }

@@ -12,6 +12,7 @@ public class LogInPage {
 	CommonActions commonActions;
 	
 	public LogInPage(WebDriver driver) {
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -27,4 +28,6 @@ public class LogInPage {
 		CommonActions.inputText(passWord, password);
 		CommonActions.click(logInButton);
 	}
+
+
 }
