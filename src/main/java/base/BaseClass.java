@@ -7,7 +7,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import static utils.IConstant.*;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -20,11 +19,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;
 import com.google.common.io.Files;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.AccountPage;
 import pages.HomePage;
@@ -107,6 +104,7 @@ public class BaseClass {
 		case SAFARI:
 			WebDriverManager.safaridriver().setup();
 			driver = new SafariDriver();
+			break;
 		default:
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -148,6 +146,5 @@ public class BaseClass {
 			}
 			return localFile.getAbsolutePath();
 		}
-
 
 }

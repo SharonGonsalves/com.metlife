@@ -5,9 +5,13 @@
     <classes>
       <class name="pages.HomePageTest">
         <methods>
+          <include name="afterEachTest"/>
           <include name="setUpDriver"/>
+          <include name="beforeEachTest"/>
+          <include name="logInAccountParameterTest"/>
+          <include name="initiatinExtentReport"/>
+          <include name="closeReport"/>
           <include name="closingDriverSession"/>
-          <include name="logInAccountTest"/>
         </methods>
       </class> <!-- pages.HomePageTest -->
     </classes>

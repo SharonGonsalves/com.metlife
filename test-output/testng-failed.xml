@@ -1,15 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pages.HomePageTest">
+      <class name="pages.AutoDataTest">
         <methods>
+          <include name="afterEachTest"/>
           <include name="setUpDriver"/>
+          <include name="beforeEachTest"/>
+          <include name="initiatinExtentReport"/>
+          <include name="closeReport"/>
+          <include name="autoTest"/>
           <include name="closingDriverSession"/>
-          <include name="logInAccountTest"/>
         </methods>
-      </class> <!-- pages.HomePageTest -->
+      </class> <!-- pages.AutoDataTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FireFoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="pages.AutoDataTest">
+        <methods>
+          <include name="afterEachTest"/>
+          <include name="setUpDriver"/>
+          <include name="beforeEachTest"/>
+          <include name="initiatinExtentReport"/>
+          <include name="closeReport"/>
+          <include name="autoTest"/>
+          <include name="closingDriverSession"/>
+        </methods>
+      </class> <!-- pages.AutoDataTest -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="pages.AutoDataTest">
+        <methods>
+          <include name="afterEachTest"/>
+          <include name="setUpDriver"/>
+          <include name="beforeEachTest"/>
+          <include name="initiatinExtentReport"/>
+          <include name="closeReport"/>
+          <include name="autoTest"/>
+          <include name="closingDriverSession"/>
+        </methods>
+      </class> <!-- pages.AutoDataTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" name="SafariTest(failed)">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="pages.AutoDataTest">
+        <methods>
+          <include name="afterEachTest"/>
+          <include name="setUpDriver"/>
+          <include name="beforeEachTest"/>
+          <include name="initiatinExtentReport"/>
+          <include name="closeReport"/>
+          <include name="autoTest"/>
+          <include name="closingDriverSession"/>
+        </methods>
+      </class> <!-- pages.AutoDataTest -->
+    </classes>
+  </test> <!-- SafariTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,6 +1,5 @@
 package pages;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,7 +18,6 @@ public class HomePage {
 	@FindBy(xpath = "(//span[@class='header__login-label font-meta-1'])[1]")
 	WebElement logInButton;
 
-    
     
 	public void logInButtonStep() {
     CommonActions.click(logInButton);
