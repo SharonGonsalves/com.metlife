@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 12 17:45:09 EST 2022</td>
+<td>Started on:</td><td>Mon Dec 26 20:36:48 EST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (20 ms)</td>
+<tr><td>Total time:</td><td>34 seconds (34114 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,72 +67,30 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='pages.HomePageTest.logInAccountParameterTest()'><b>logInAccountParameterTest</b><br>Test class: pages.HomePageTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;username&apos; is required by @Test on method logInAccountParameterTest but has not been marked @Optional or defined
-in /private/var/folders/vx/5v7ncfwd7hn7fz1qf3qsbfvc0000gn/T/testng-eclipse-80657574/testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1947896119", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1947896119'><pre>org.testng.TestNGException: 
-Parameter &apos;username&apos; is required by @Test on method logInAccountParameterTest but has not been marked @Optional or defined
-in /private/var/folders/vx/5v7ncfwd7hn7fz1qf3qsbfvc0000gn/T/testng-eclipse-80657574/testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
+<td title='pages.HomePageTest.logInAccountTest()'><b>logInAccountTest</b><br>Test class: pages.HomePageTest<br/>
+<a href="#Output-1460126155" onClick='toggleBox("Output-1460126155", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1460126155" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1460126155">
+[[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br><br/>
+for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //select[@id='login-select-tooltip']]<br><br/>
+metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: (//select[@class='login-type'])[2]]<br><br/>
+Proxy element for: DefaultElementLocator 'By.cssSelector: .brand-button.js-submitLogin'<--- has been clicked<br><br/>
+Sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //input[@id='userNameId']]<br><br/>
+12345 : has been Inserted ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //input[@id='passwordId']]<br><br/>
+[[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br><br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
 <td>pages.HomePageTest@433d61fb</td></tr>
 </table><p>
 </body>

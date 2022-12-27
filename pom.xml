@@ -40,6 +40,15 @@
 					<target>${javaVersion}</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M7</version>
+				<configuration>
+					<suiteXmlFiles>testHomePage.xml</suiteXmlFiles>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>

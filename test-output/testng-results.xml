@@ -1,553 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
+      <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
     </line>
     <line>
-      <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
+      <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
     </line>
     <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: .brand-button.js-submitLogin'<--- has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
+      <![CDATA[Sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //input[@id='userNameId']]<br>]]>
     </line>
     <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
+      <![CDATA[12345 : has been Inserted ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //input[@id='passwordId']]<br>]]>
     </line>
     <line>
-      <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
-    </line>
-    <line>
-      <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
-    </line>
-    <line>
-      <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
-    </line>
-    <line>
-      <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="15874" started-at="2022-11-12T23:25:41Z" finished-at="2022-11-12T23:25:57Z">
+  <suite name="Default suite" duration-ms="34114" started-at="2022-12-27T01:36:48Z" finished-at="2022-12-27T01:37:22Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="4966" started-at="2022-11-12T23:25:41Z" finished-at="2022-11-12T23:25:46Z">
-      <class name="pages.AutoDataTest">
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:pages.AutoDataTest@433d61fb]" name="beforeEachTest" is-config="true" duration-ms="12" started-at="2022-11-12T23:25:41Z" finished-at="2022-11-12T23:25:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void pages.AutoDataTest.autoTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.AutoDataTest@433d61fb]" name="setUpDriver" is-config="true" duration-ms="3874" started-at="2022-11-12T23:25:41Z" finished-at="2022-11-12T23:25:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method status="FAIL" signature="autoTest()[pri:0, instance:pages.AutoDataTest@433d61fb]" name="autoTest" duration-ms="800" started-at="2022-11-12T23:25:45Z" finished-at="2022-11-12T23:25:46Z">
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: E3A2C791-6FD0-4303-AA96-FD61DE85894E
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: E3A2C791-6FD0-4303-AA96-FD61DE85894E
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-at common.CommonActions.inputText(CommonActions.java:58)
-at pages.LogInPage.logInSteps(LogInPage.java:27)
-at pages.AutoDataTest.autoTest(AutoDataTest.java:15)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
-          <reporter-output>
-            <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
-            </line>
-            <line>
-              <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- autoTest -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:pages.AutoDataTest@433d61fb]" name="afterEachTest" is-config="true" duration-ms="116" started-at="2022-11-12T23:25:46Z" finished-at="2022-11-12T23:25:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=autoTest status=FAILURE method=AutoDataTest.autoTest()[pri:0, instance:pages.AutoDataTest@433d61fb] output=[[SafariDriver: Safari on MAC (E3A2C791-6FD0-4303-AA96-FD61DE85894E)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.AutoDataTest@433d61fb]" name="closingDriverSession" is-config="true" duration-ms="147" started-at="2022-11-12T23:25:46Z" finished-at="2022-11-12T23:25:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingDriverSession -->
-      </class> <!-- pages.AutoDataTest -->
-    </test> <!-- ChromeTest -->
-    <test name="FireFoxTest" duration-ms="3580" started-at="2022-11-12T23:25:46Z" finished-at="2022-11-12T23:25:50Z">
-      <class name="pages.AutoDataTest">
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:pages.AutoDataTest@769f71a9]" name="beforeEachTest" is-config="true" duration-ms="1" started-at="2022-11-12T23:25:46Z" finished-at="2022-11-12T23:25:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void pages.AutoDataTest.autoTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.AutoDataTest@769f71a9]" name="setUpDriver" is-config="true" duration-ms="2568" started-at="2022-11-12T23:25:46Z" finished-at="2022-11-12T23:25:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method status="FAIL" signature="autoTest()[pri:0, instance:pages.AutoDataTest@769f71a9]" name="autoTest" duration-ms="746" started-at="2022-11-12T23:25:49Z" finished-at="2022-11-12T23:25:49Z">
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: BCA6BD7B-125F-4283-B409-362F083F4572
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: BCA6BD7B-125F-4283-B409-362F083F4572
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-at common.CommonActions.inputText(CommonActions.java:58)
-at pages.LogInPage.logInSteps(LogInPage.java:27)
-at pages.AutoDataTest.autoTest(AutoDataTest.java:15)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
-          <reporter-output>
-            <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
-            </line>
-            <line>
-              <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- autoTest -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:pages.AutoDataTest@769f71a9]" name="afterEachTest" is-config="true" duration-ms="106" started-at="2022-11-12T23:25:49Z" finished-at="2022-11-12T23:25:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=autoTest status=FAILURE method=AutoDataTest.autoTest()[pri:0, instance:pages.AutoDataTest@769f71a9] output=[[SafariDriver: Safari on MAC (BCA6BD7B-125F-4283-B409-362F083F4572)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.AutoDataTest@769f71a9]" name="closingDriverSession" is-config="true" duration-ms="156" started-at="2022-11-12T23:25:50Z" finished-at="2022-11-12T23:25:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingDriverSession -->
-      </class> <!-- pages.AutoDataTest -->
-    </test> <!-- FireFoxTest -->
-    <test name="EdgeTest" duration-ms="3487" started-at="2022-11-12T23:25:50Z" finished-at="2022-11-12T23:25:53Z">
-      <class name="pages.AutoDataTest">
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:pages.AutoDataTest@3d680b5a]" name="beforeEachTest" is-config="true" duration-ms="1" started-at="2022-11-12T23:25:50Z" finished-at="2022-11-12T23:25:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void pages.AutoDataTest.autoTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.AutoDataTest@3d680b5a]" name="setUpDriver" is-config="true" duration-ms="2588" started-at="2022-11-12T23:25:50Z" finished-at="2022-11-12T23:25:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method status="FAIL" signature="autoTest()[pri:0, instance:pages.AutoDataTest@3d680b5a]" name="autoTest" duration-ms="739" started-at="2022-11-12T23:25:52Z" finished-at="2022-11-12T23:25:53Z">
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: 15CA638D-6CFC-45A8-BB18-120ADD5A67B7
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: 15CA638D-6CFC-45A8-BB18-120ADD5A67B7
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-at common.CommonActions.inputText(CommonActions.java:58)
-at pages.LogInPage.logInSteps(LogInPage.java:27)
-at pages.AutoDataTest.autoTest(AutoDataTest.java:15)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
-          <reporter-output>
-            <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
-            </line>
-            <line>
-              <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- autoTest -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:pages.AutoDataTest@3d680b5a]" name="afterEachTest" is-config="true" duration-ms="83" started-at="2022-11-12T23:25:53Z" finished-at="2022-11-12T23:25:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=autoTest status=FAILURE method=AutoDataTest.autoTest()[pri:0, instance:pages.AutoDataTest@3d680b5a] output=[[SafariDriver: Safari on MAC (15CA638D-6CFC-45A8-BB18-120ADD5A67B7)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.AutoDataTest@3d680b5a]" name="closingDriverSession" is-config="true" duration-ms="74" started-at="2022-11-12T23:25:53Z" finished-at="2022-11-12T23:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingDriverSession -->
-      </class> <!-- pages.AutoDataTest -->
-    </test> <!-- EdgeTest -->
-    <test name="SafariTest" duration-ms="3634" started-at="2022-11-12T23:25:53Z" finished-at="2022-11-12T23:25:57Z">
-      <class name="pages.AutoDataTest">
-        <test-method status="PASS" signature="initiatinExtentReport()[pri:0, instance:pages.AutoDataTest@3e2e18f2]" name="initiatinExtentReport" is-config="true" duration-ms="194" started-at="2022-11-12T23:25:41Z" finished-at="2022-11-12T23:25:41Z">
+    <test name="Default test" duration-ms="34114" started-at="2022-12-27T01:36:48Z" finished-at="2022-12-27T01:37:22Z">
+      <class name="pages.HomePageTest">
+        <test-method status="PASS" signature="initiatinExtentReport()[pri:0, instance:pages.HomePageTest@433d61fb]" name="initiatinExtentReport" is-config="true" duration-ms="248" started-at="2022-12-27T01:36:48Z" finished-at="2022-12-27T01:36:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiatinExtentReport -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:pages.AutoDataTest@3e2e18f2]" name="beforeEachTest" is-config="true" duration-ms="1" started-at="2022-11-12T23:25:53Z" finished-at="2022-11-12T23:25:53Z">
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:pages.HomePageTest@433d61fb]" name="beforeEachTest" is-config="true" duration-ms="21" started-at="2022-12-27T01:36:48Z" finished-at="2022-12-27T01:36:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void pages.AutoDataTest.autoTest()]]>
+                <![CDATA[public void pages.HomePageTest.logInAccountTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.AutoDataTest@3e2e18f2]" name="setUpDriver" is-config="true" duration-ms="2626" started-at="2022-11-12T23:25:53Z" finished-at="2022-11-12T23:25:56Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@433d61fb]" name="setUpDriver" is-config="true" duration-ms="5311" started-at="2022-12-27T01:36:48Z" finished-at="2022-12-27T01:36:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="FAIL" signature="autoTest()[pri:0, instance:pages.AutoDataTest@3e2e18f2]" name="autoTest" duration-ms="710" started-at="2022-11-12T23:25:56Z" finished-at="2022-11-12T23:25:57Z">
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: 72D247FC-3ACD-42A3-9E32-FD5401C66C60
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Braidens-MacBook-Pro.local', ip: '2601:86:300:4040:0:0:0:d281%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21C52, safari:platformVersion: 12.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: 72D247FC-3ACD-42A3-9E32-FD5401C66C60
-*** Element info: {Using=xpath, value=//input[@id='userNameId']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-at common.CommonActions.inputText(CommonActions.java:58)
-at pages.LogInPage.logInSteps(LogInPage.java:27)
-at pages.AutoDataTest.autoTest(AutoDataTest.java:15)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+        <test-method status="PASS" signature="logInAccountTest()[pri:1, instance:pages.HomePageTest@433d61fb]" name="logInAccountTest" duration-ms="28583" started-at="2022-12-27T01:36:54Z" finished-at="2022-12-27T01:37:22Z">
           <reporter-output>
             <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[for_businesses : has been selected for ---> [[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
+              <![CDATA[for_businesses : has been selected for ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //select[@id='login-select-tooltip']]<br>]]>
             </line>
             <line>
-              <![CDATA[metlink : has been selected for ---> [[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
+              <![CDATA[metlink : has been selected for ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: (//select[@class='login-type'])[2]]<br>]]>
             </line>
             <line>
-              <![CDATA[[[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> css selector: .brand-button.js-submitLogin]<--- has been clicked<br>]]>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: .brand-button.js-submitLogin'<--- has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sharon : has been Inserted ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //input[@id='userNameId']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[12345 : has been Inserted ---> [[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //input[@id='passwordId']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: //button[text()=' LOG IN']]<--- has been clicked<br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- autoTest -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:pages.AutoDataTest@3e2e18f2]" name="afterEachTest" is-config="true" duration-ms="112" started-at="2022-11-12T23:25:57Z" finished-at="2022-11-12T23:25:57Z">
+        </test-method> <!-- logInAccountTest -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:pages.HomePageTest@433d61fb]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2022-12-27T01:37:22Z" finished-at="2022-12-27T01:37:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=autoTest status=FAILURE method=AutoDataTest.autoTest()[pri:0, instance:pages.AutoDataTest@3e2e18f2] output=[[SafariDriver: Safari on MAC (72D247FC-3ACD-42A3-9E32-FD5401C66C60)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]]>
+                <![CDATA[[TestResult name=logInAccountTest status=SUCCESS method=HomePageTest.logInAccountTest()[pri:1, instance:pages.HomePageTest@433d61fb] output=[[ChromeDriver: chrome on MAC (f013358e3c7439c756f0e7179cfd1283)] -> xpath: (//span[@class='header__login-label font-meta-1'])[1]]<--- has been clicked<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Error occurs during taking ScreenShot..!<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.AutoDataTest@3e2e18f2]" name="closingDriverSession" is-config="true" duration-ms="182" started-at="2022-11-12T23:25:57Z" finished-at="2022-11-12T23:25:57Z">
+        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@433d61fb]" name="closingDriverSession" is-config="true" duration-ms="183" started-at="2022-12-27T01:37:22Z" finished-at="2022-12-27T01:37:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDriverSession -->
-        <test-method status="PASS" signature="closeReport()[pri:0, instance:pages.AutoDataTest@3e2e18f2]" name="closeReport" is-config="true" duration-ms="228" started-at="2022-11-12T23:25:57Z" finished-at="2022-11-12T23:25:57Z">
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:pages.HomePageTest@433d61fb]" name="closeReport" is-config="true" duration-ms="285" started-at="2022-12-27T01:37:22Z" finished-at="2022-12-27T01:37:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-      </class> <!-- pages.AutoDataTest -->
-    </test> <!-- SafariTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- pages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

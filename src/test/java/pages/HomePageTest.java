@@ -6,7 +6,7 @@ import base.BaseClass;
 
 public class HomePageTest extends BaseClass {
 
-	@Test(enabled = false, priority = 1)
+	@Test(enabled = true, priority = 1)
 	public void logInAccountTest(){
 		homePage.logInButtonStep();
 		accountPage.accountTypeStep();
@@ -14,7 +14,7 @@ public class HomePageTest extends BaseClass {
 	}
 	
 	@Parameters({"username","password"})
-	@Test(enabled = true, priority = 2)
+	@Test(enabled = false, priority = 2)
 	public void logInAccountParameterTest(String username, String password){
 		homePage.logInButtonStep();
 		accountPage.accountTypeStep();
